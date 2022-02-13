@@ -145,7 +145,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `AHOY! The ${CONFIG.NFT_NAME} is yours! You are a real sailor! <3.`
+          `AHOY! The ${CONFIG.NFT_NAME} is yours! You are a REAL SAILOR! <3.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
